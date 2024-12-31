@@ -1,0 +1,25 @@
+{
+  "name": "Next.js",
+  "description": "Universal web app built on React.js, static-served by Nginx",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku-community/nginx"
+    }
+  ],
+  "stack": "heroku-22"
+}
